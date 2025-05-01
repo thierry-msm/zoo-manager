@@ -1,0 +1,20 @@
+{
+    "name": "zoo-management-backend",
+    "version": "1.0.0",
+    "description": "Backend para gerenciamento de animais de zoológico",
+    "main": "server.js",
+    "scripts": {
+      "start": "node server.js",
+      "dev": "nodemon server.js"
+    },
+    "dependencies": {
+      "@fastify/cors": "^8.0.0",
+      "@prisma/client": "^5.0.0",
+      "fastify": "^4.0.0"
+    },
+    "devDependencies": {
+      "nodemon": "^3.0.0",
+      "prisma": "^5.0.0"
+    }
+  }
+  
